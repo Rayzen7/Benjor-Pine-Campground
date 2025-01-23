@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benjor Pine Campground</title>
+    <link rel="icon" href="./assets/img/logo/logo-12.png" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- Splash Screen Start -->
+    <div class="splash-screen">
+      <img src="./assets/img/logo/logo-2.png" alt="" class="splash-img" />
+      <div class="background left">
+        <div class="layer blue"></div>
+        <div class="layer white"></div>
+      </div>
+      <div class="background right">
+        <div class="layer blue"></div>
+        <div class="layer white"></div>
+      </div>
+    </div>
+    <!-- Splash Screen End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <img src="./assets/img/logo/logo-2.png" alt="" />
+      <ul class="navbar-list">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#galery-section">Galeri</a></li>
+        <li><a href="#article">Artikel</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#ticket">Tiket</a></li>
+        <li><a href="#information">Informasi</a></li>
+        <li><a href="#faq">Pertanyaan</a></li>
+      </ul>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="navbar-hamburger"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M4 6h2v2H4zm0 5h2v2H4zm0 5h2v2H4zm16-8V6H8.023v2H18.8zM8 11h12v2H8zm0 5h12v2H8z"
+        />
+      </svg>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section class="home" id="home">
+      <div class="home-container">
+        <div class="home-text-container">
+          <div class="home-text">
+            <div class="compas-container">
+              <img src="./assets/img/home/compas.svg" alt="" />
+              <p>Temukan Petualanganmu di Alam Bebas</p>
+            </div>
+            <h1>
+              Pengalaman <span>Berkemah</span> <br />
+              Terbaik Di Malang
+            </h1>
+            <p>
+              Selamat datang di Explore Benjor Pine, platform terbaik untuk para pecinta alam dan petualangan! Kami menyediakan informasi lengkap tentang lokasi camping, tips persiapan, dan perlengkapan yang Anda butuhkan. Baik Anda seorang pemula maupun petualang berpengalaman, Temukan berbagai aktivitas seru, pemandangan alam yang menakjubkan.
+            </p>
+          </div>
+          <div class="home-button">
+            <a href="#destinations">
+              <button>Temukan Keajaibannya Sekarang</button>
+            </a>
+            <img src="./assets/img/home/plane.svg" alt="" />
+          </div>
+        </div>
+        <div class="home-image">
+          <img src="./assets/img/home/image1.png" alt="" />
+          <div class="home-image-flex">
+            <img src="./assets/img/home/image2.png" alt="" />
+            <img src="./assets/img/home/image3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- Galery Start -->
+    <section class="galery" id="galery-section">
+      <h1>Gallery Destinasi</h1>
+      <p>Ini adalah kumpulan beberapa foto Pinus Benjor Campground</p>
+      <div class="galery-btn-wrapper">
+        <div class="galery-btn">
+          <button onclick="createGallery('area-panah')">Area Panah</button>
+          <button onclick="createGallery('flying-fox')">Flying Fox</button>
+          <button onclick="createGallery('jembatan-tail')">Jembatan Tail</button>
+          <button onclick="createGallery('pondok-kayu')">Pondok Kayu</button>
+          <button onclick="createGallery('mushola')">Mushola</button>
+          <button onclick="createGallery('kopi')">Budidaya Kopi</button>
+        </div>        
+      </div>
+      <div class="galery-container">
+        <div class="galery-left">
+          <img src="./assets/img/galery/area-panah/img-1.png" alt="">
+          <img src="./assets/img/galery/area-panah/img-2.png" alt="">
+        </div>
+        <div class="galery-center">
+          <img src="./assets/img/galery/area-panah/img-3.png" alt="">
+        </div>
+        <div class="galery-right">
+          <img class="galery-img-iv" src="./assets/img/galery/area-panah/img-4.png" alt="">
+          <div class="galery-right-container">
+            <img class="galery-img-v" src="./assets/img/galery/area-panah/img-5.png" alt="">
+            <img class="galery-img-vi" src="./assets/img/galery/area-panah/img-6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Galery End -->
+
+    <!-- Article Start -->
+    <section class="article" id="article">
+      <h1>Artikel & Berita</h1>
+      <div class="article-flex">
+        <a href="https://www.idntimes.com/travel/destination/hendra-nugroho/benjor-pine-camping-ground-malang-c1c2" target="_blank" style="text-decoration: none;">
+          <div class="article-primary">
+            <img src="./assets/img/article/card-primary.svg" alt="" />
+            <h4><span>IDN TIMES</span> • Minggu, 9 Agustus, 2024</h4>
+            <h1>Benjor Pine Camping Ground Malang: Lokasi, HTM, dan Daya Tarik</h1>
+            <p>
+              Salah satu destinasi wisata di Malang yang bisa jadi alternatif tempat untuk mengisi waktu liburan yaitu Benjor Pine Camping...
+            </p>
+          </div>
+        </a>
+        <div class="article-secondary">
+          <a href="https://radarbatu.jawapos.com/wisata-kuliner/2324906415/spot-camping-asik-benjor-pine-camp-ground-tumpang" target="_blank" style="text-decoration: none;">
+            <div class="article-container">
+              <img src="./assets/img/article/card1.svg" alt="" />
+              <div class="article-container-text">
+                <h4><span>RADAR BATU</span> • Jumat, 26 Juli, 2024</h4>
+                <h1>Spot Camping Asik: Benjor Pine Camp Ground Tumpang</h1>
+                <p>
+                  Sebentar lagi bulan Juli akan berakhir. Anda bisa menutup bulan ini dengan berlibur d...
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://jateng.akurat.co/wisata-kuliner/1335349870/jatim-vibes-menikmati-keindahan-alam-sambil-camping-di-benjor-pine-campground-surga-outdoor-di-tengah-hutan-pinus-malang" target="_blank" style="text-decoration: none;">
+            <div class="article-container">
+              <img src="./assets/img/article/card2.svg" alt="" />
+              <div class="article-container-text">
+                <h4><span>Akurat.co</span> • Senin, 25 November 2024</h4>
+                <h1>Surga Outdoor di Tengah Hutan Pinus Malang</h1>
+                <p>
+                  ika Anda mencari destinasi yang menggabungkan keindahan alam dan berba...
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://malangraya.pikiran-rakyat.com/kabupaten/pr-3628294686/benjor-pine-camp-ground-spot-camping-cakep-di-malang-view-air-terjun?page=all" target="_blank" style="text-decoration: none;">
+            <div class="article-container">
+              <img src="./assets/img/article/card3.svg" alt="" />
+              <div class="article-container-text">
+                <h4><span>MalangRaya.co</span> • Senin, 6 Jul 2024</h4>
+                <h1>Spot Camping Cakep di Malang View Air Terjun!</h1>
+                <p>
+                  Antusias wisatawan menjadikan area wisata bermunculan, tumbuh subur di..
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Articles End -->
+
+    <!-- Testimonials Start -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-text-header">
+        <h1>APA YANG DIKATAKAN <br>
+        <span>PENGUNJUNG</span></h1>
+        <img
+          class="testimonials-plane"
+          src="./assets/img/testimonials/plane.svg"
+          alt=""
+        />
+      </div>
+      <div class="testimonials-container-wrapper">
+        <div class="testimonials-wrapper" id="testimonialsWrapper">
+          <!-- Mapping on Javascript -->
+        </div>
+      </div>
+      <div class="testimonials-pagination" id="pagination">
+        <div class="testimonials-circle"></div>
+        <div class="testimonials-circle"></div>
+        <div class="testimonials-circle"></div>
+      </div>
+    </section>
+    <!-- Testimonials End -->
+
+    <!-- superiority Start -->
+     <section class="superiority">
+      <h1>Keunggulan Di Setiap Sudutnya</h1>
+      <p>Benjor Pine Campground menyajikan pemandangan indah, fasilitas lengkap, dan tempat nyaman. Nikmati berkemah terjangkau dengan pemandu wisata yang ramah.</p>
+      <div class="superiority-flex">
+        <div class="superiority-left">
+          <div class="superiority-container">
+            <img src="./assets/img/top/top-1.svg" alt="">
+            <div class="superiority-text">
+              <h2>Harga Murah Terjangkau</h2>
+              <p>Dapatkan pengalaman berkemah seru dengan harga ramah di kantong</p>
+            </div>
+          </div>
+          <div class="superiority-container">
+            <img src="./assets/img/top/top-2.svg" alt="">
+            <div class="superiority-text">
+              <h2>Pemandu Wisata yang Ramah</h2>
+              <p>Didampingi oleh pemandu wisata yang ramah dan berpengalaman</p>
+            </div>
+          </div>
+          <div class="superiority-img">
+            <img src="./assets/img/top/top-img-1.png" alt="">
+          </div>
+        </div>
+        <div class="superiority-center">
+          <img src="./assets/img/top/top-img-2.png" alt="">
+        </div>
+        <div class="superiority-left">
+          <div class="superiority-img">
+            <img src="./assets/img/top/top-img-3.png" alt="">
+          </div>
+          <div class="superiority-container">
+            <img src="./assets/img/top/top-3.svg" alt="">
+            <div class="superiority-text">
+              <h2>Pemandangan Alam yang Indah</h2>
+              <p>Disuguhkan panorama hutan pinus yang menyejukkan dan air terjun alami memukau</p>
+            </div>
+          </div>
+          <div class="superiority-container">
+            <img src="./assets/img/top/top-4.svg" alt="">
+            <div class="superiority-text">
+              <h2>Tempat Bersih dan Nyaman</h2>
+              <p>Rasakan kenyamanan berkemah di tempat yang terjaga kebersihannya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- superiority end -->
+
+     <!-- Ticket Start -->
+      <section class="ticket" id="ticket">
+        <h1>Daftar Tiket</h1>
+        <div class="ticket-wrapper">
+          <div class="ticket-flex">
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-1.png" alt="">
+              <div class="ticket-text">
+                <h1>Wisata Edukasi Kopi</h1>
+                <p>Memberikan pengalaman unik bagi pengunjung yang ingin belajar tentang proses pembuatan kopi dari hulu ke hilir.</p>
+                <h2>Rp. 10.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-2.png" alt="">
+              <div class="ticket-text">
+                <h1>Tiket Masuk</h1>
+                <p>Biaya yang diperlukan untuk mengakses Benjor Pine Campground dan menikmati berbagai fasilitas serta aktivitas yang tersedia</p>
+                <h2>Rp. 10.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-5.png" alt="">
+              <div class="ticket-text">
+                <h1>Tracking Coban</h1>
+                <p>Mengajak Anda untuk menjelajahi keindahan alam dengan perjalanan seru menuju air terjun (coban) yang masih alami.</p>
+                <h2>Rp. 5.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-6.png" alt="">
+              <div class="ticket-text">
+                <h1>Wahana Offroad</h1>
+                <p> Menawarkan petualangan seru dengan kendaraan yang siap membawa Anda menjelajahi medan alam yang menantang.</p>
+                <h2>Rp. 30.000 - Rp. 100.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-4.png" alt="">
+              <div class="ticket-text">
+                <h1>Paket Outbound</h1>
+                <p> Menawarkan pengalaman seru dan penuh tantangan dengan berbagai aktivitas luar ruangan untuk meningkatkan kerja sama tim.</p>
+                <h2>Rp. 30.000 - Rp. 100.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-3.png" alt="">
+              <div class="ticket-text">
+                <h1>Camp Ground + Bermalam</h1>
+                <p>Menawarkan pengalaman berkemah yang lengkap dengan fasilitas nyaman di tengah alam, nikmati pemandangan indah & udara segar</p>
+                <h2>Rp. 10.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-7.png" alt="">
+              <div class="ticket-text">
+                <h1>Wahana Permainan</h1>
+                <p>Wahana yang dirancang untuk memberikan kesenangan sekaligus meningkatkan kerja sama dan keterampilan</p>
+                <h2>Rp. 5.000/orang</h2>
+              </div>
+            </div>
+            <div class="ticket-container">
+              <img src="./assets/img/ticket/img-8.png" alt="">
+              <div class="ticket-text">
+                <h1>Flying Fox</h1>
+                <p> Menawarkan sensasi terbang di udara dengan pemandangan alam yang memukau, Rasakan adrenalin meluncur melalui jalur yang aman.</p>
+                <h2>Rp. 10.000/orang</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Ticket End -->
+
+    <!-- Information Start -->
+    <section class="information" id="information">
+      <div class="information-header">
+        <h1>Informasi<span> Tujuan</span></h1>
+        <p>Kenali informasi Benjor pine campground </p>
+      </div>
+      <div class="information-maps">  
+        <h2>Map Benjor Pine Campground</h2>
+        <p>Benjor Pine Campground terletak di Desa Benjor, Kecamatan Tumpang, Kabupaten Malang, Jawa Timur. Destinasi wisata ini dapat diakses dengan jarak sekitar 26 km dari pusat Kota Malang, memakan waktu sekitar 50 menit perjalanan. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.072522322519!2d112.8310724!3d-7.991447699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd63b1e801f51dd%3A0xc7b42d6e125a7930!2sBenjor%20Pine%20Camping%20Ground!5e0!3m2!1sid!2sid!4v1737615045570!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <!-- Information End -->
+
+    <!-- FAQ Start -->
+    <section class="faq" id="faq">
+      <div class="faq-head">
+        <div class="faq-head-text">
+          <h1>Pertanyaan yang sering diajukan</h1>
+          <p>
+            Segala hal yang perlu Anda ketahui tentang Benjor Campground.
+Tidak dapat menemukan jawaban yang Anda cari? Hubungi kami
+          </p>
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <h1>Apa itu Benjor Campground?</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="faq-arrow"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Benjor Campground adalah platform yang menyediakan informasi, rekomendasi lokasi, dan layanan berkemah untuk para pecinta alam. Kami membantu Anda merencanakan pengalaman camping yang menyenangkan, baik untuk pemula maupun petualang berpengalaman.
+
+            </p>
+          </div>
+        </div>
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <h1>
+              Apa saja fasilitas yang tersedia di Benjor Campground?
+            </h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="faq-arrow"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Kami menyediakan berbagai fasilitas seperti area camping yang luas, akses ke toilet dan kamar mandi, tempat api unggun, penyewaan perlengkapan camping, serta pemandu wisata untuk aktivitas outdoor.
+
+            </p>
+          </div>
+        </div>
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <h1>Apakah Benjor Campground cocok untuk keluarga?</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="faq-arrow"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Benjor Campground menawarkan lokasi yang strategis, dekat dengan alam, fasilitas lengkap, dan pengalaman camping yang nyaman. Kami juga memiliki tim pendukung yang siap membantu selama Anda berkemah.
+
+            </p>
+          </div>
+        </div>
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <h1>Apa keunggulan Benjor Campground dibanding tempat lain?</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="faq-arrow"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Tentu! Benjor Campground menyediakan lokasi yang ramah keluarga dengan area aman untuk anak-anak, serta aktivitas seru seperti trekking ringan, BBQ, dan permainan outdoor.
+
+            </p>
+          </div>
+        </div>
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <h1>Apakah tersedia perlengkapan camping untuk disewa?</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="faq-arrow"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Ya, kami menyediakan perlengkapan camping seperti tenda, sleeping bag, lampu, dan peralatan memasak yang bisa disewa. Anda dapat memilih paket perlengkapan sesuai kebutuhan saat melakukan reservasi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Accordion End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="footer-body-header">
+          <img src="./assets/img/footer/logo.svg" alt="" />
+          <p>Tempat Sempurna untuk Berkemah dan Bersantai.</p>
+        </div>
+        <div class="footer-body-flex">
+          <div class="footer-body-container footer-none">
+            <h1>Company</h1>
+            <p>Beranda</p>
+            <p>Galeri</p>
+            <p>Artikel</p>
+            <p>Testimoni</p>
+            <p>Maps</p>
+            <p>Keunggulan</p>
+          </div>
+          <div class="footer-body-container footer-none">
+            <h1>Support</h1>
+            <p>Help Center</p>
+            <p>Feedback</p>
+            <p>Service</p>
+            <p>Tweet Us</p>
+            <p>Webians</p>
+            <p>support System</p>
+          </div>
+          <div class="footer-body-container">
+            <h1>Contact Us</h1>
+            <div class="contact">
+              <img src="./assets/img/footer/img-1.svg" alt="">
+              <p>+62 8224 7021 191</p>
+            </div>
+            <div class="contact">
+              <img src="./assets/img/footer/img-2.svg" alt="">
+              <p>@benjorpine_campingground</p>
+            </div>
+            <div class="contact">
+              <img src="./assets/img/footer/img-3.svg" alt="">
+              <p>@benjorpinecampground</p>
+            </div>
+            <div class="contact">
+              <img src="./assets/img/footer/img-4.svg" alt="">
+              <p>benjorpinecampground@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-end">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+        <p>Cookies</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./JS/dataLocal.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
